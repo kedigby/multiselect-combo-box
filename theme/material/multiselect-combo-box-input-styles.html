@@ -1,5 +1,4 @@
 <link rel="import" href="../../../vaadin-material-styles/typography.html">
-
 <link rel="import" href="../../../vaadin-material-styles/mixins/field-button.html">
 
 <dom-module id="material-multiselect-combo-box-input" theme-for="multiselect-combo-box-input">
@@ -55,7 +54,7 @@
       }
 
       [part="toggle-button"]::before {
-        content: var(--material-icons-arrow_drop_down);
+        content: var(--material-icons-arrow_drop_down, --material-icons-dropdown);
       }
 
       :host(:not([has-value])) [part="clear-button"] {
